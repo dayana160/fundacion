@@ -25,3 +25,5 @@ Thumbs.db
 # Temporales
 *.tmp
 *.swp
+backend/uploads/*
+!backend/uploads/.gitkeep
