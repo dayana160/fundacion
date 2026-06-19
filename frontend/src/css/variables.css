@@ -1,0 +1,70 @@
+:root {
+  /* Paleta principal */
+  --navy-900: #0c1a3a;
+  --navy-800: #11224d;
+  --navy-700: #172c5e;
+  --gold-500: #f5b400;
+  --gold-600: #dba000;
+  --green-600: #3fa34d;
+  --green-700: #348a40;
+  --white: #ffffff;
+  --gray-50: #f7f8fb;
+  --gray-100: #f0f2f7;
+  --gray-200: #e3e6ee;
+  --gray-400: #9aa1b5;
+  --gray-600: #5c6378;
+  --text-dark: #16213e;
+  --danger: #d9483b;
+  --danger-dark: #b53a2f;
+
+  /* Tipografía */
+  --font-base: 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+
+  /* Bordes y sombras */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 2px 8px rgba(12, 26, 58, 0.08);
+  --shadow-md: 0 8px 24px rgba(12, 26, 58, 0.12);
+  --shadow-lg: 0 16px 40px rgba(12, 26, 58, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-base);
+  color: var(--text-dark);
+  background: var(--white);
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}

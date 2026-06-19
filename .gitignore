@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build de producción
+frontend/dist/
+
+# Variables de entorno
+*.env
+!*.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.swp
